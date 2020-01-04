@@ -16,7 +16,7 @@ export class UsersController {
   @Post()
   async createUser(@Body() userDto: UserDto): Promise<UserDto> {
     const userId = Math.floor(Math.random() * (999 - 100 + 1) + 100);
-    return this.usersService.createUser({...{userId}, ...userDto});
+    return this.usersService.createUser({ ...{ userId }, ...userDto });
   }
 
   /* Update User */
@@ -25,7 +25,7 @@ export class UsersController {
   @ApiResponse({ status: 200, description: 'Update User.' })
   @Put(':userId')
   async updateUser(@Param() userId: UserIdRequestParamsDto, @Body() userDto: UserDto) {
-    return this.usersService.updateUser({...userId, ...userDto});
+    return this.usersService.updateUser({ ...userId, ...userDto });
   }
 
   /* Delete User */

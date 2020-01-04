@@ -21,14 +21,14 @@ async function bootstrap() {
     validationError: { target: false },
   };
   /*--------------------------------------------*/
-  app.useGlobalPipes(new ValidationPipe(validationOptions));
+  app.useGlobalPipes( new ValidationPipe(validationOptions));
   app.setGlobalPrefix(config.PREFIX);
   app.register(fastifyCors, {
     origin: true,
   });
   SwaggerModule.setup(config.API_EXPLORER_PATH, app, document);
   await app.listen(config.PORT, config.HOST);
-  Logger.log(`Server listening on port ${config.PORT}`, 'Bootstrap');
+  Logger.log(`Server listening on port ${config.PORT}`, "Bootstrap");
 }
 
 bootstrap();

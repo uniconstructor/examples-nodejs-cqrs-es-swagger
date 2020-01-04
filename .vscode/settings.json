@@ -1,0 +1,33 @@
+{
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.hover.delay": 200,
+    "editor.stablePeek": true,
+    "editor.tabCompletion": "on",
+    "editor.trimAutoWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "editor.wrappingIndent": "indent",
+    "editor.suggest.shareSuggestSelections": true,
+    "workbench.commandPalette.history": 150,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.quickOpen.closeOnFocusLost": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.revealIfOpen": true,
+    "explorer.openEditors.visible": 8,
+    "tslint.suppressWhileTypeErrorsPresent": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "typescript.preferences.quoteStyle": "single",
+    "debug.node.autoAttach": "on",
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "tslint.packageManager": "yarn"
+}
